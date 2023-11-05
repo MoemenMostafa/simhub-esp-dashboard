@@ -1,0 +1,21 @@
+format([DataCorePlugin.GameData.NewData.SpeedKmh],'0') + ';' + 
+isnull([DataCorePlugin.GameData.NewData.Gear],'N')+ ';' + 
+format([CarSettings_CurrentDisplayedRPMPercent],'0')+ ';' +
+format([CarSettings_RPMRedLineSetting],'0')+ ';' + 
+left([CurrentLapTime],3,8) + ';'+ left([LastLapTime],3,8) + ';' +
+left([BestLapTime],3,8) + ';' + 
+format([PersistantTrackerPlugin.SessionBestLiveDeltaSeconds],'0.000') + ';'+ 
+format([PersistantTrackerPlugin.SessionBestLiveDeltaProgressSeconds],'0.00') + ';' + 
+format([TyrePressureFrontLeft], '00.0') + ';' + 
+format([TyrePressureFrontRight], '00.0') + ';' + 
+format([TyrePressureRearLeft], '00.0') + ';' + 
+format([TyrePressureRearRight], '00.0') + ';' +
+[TCLevel] + ';' +
+[TCActive] + ';' +
+[ABSLevel] + ';' +
+[ABSActive] + ';' +
+isnull([GameRawData.Graphics.TCCut]) + ';' +
+[TCLevel] + '  ' + [GameRawData.Graphics.TCCut] + ';' +
+abs(format([BrakeBias], '00.0')) + ';' +
+format([Brake], '0') + ';' +
+[LapInvalidated] + ';'
