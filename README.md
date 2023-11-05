@@ -10,8 +10,6 @@
 - [Prerequisites](#prerequisites)
 - [Getting Started](#getting-started)
   - [Installation](#installation)
-  - [Usage](#usage)
-- [Custom Protocol Integration](#custom-protocol-integration)
 - [Contributing](#contributing)
 - [License](#license)
 
