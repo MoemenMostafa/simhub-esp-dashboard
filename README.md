@@ -4,6 +4,9 @@
 
 ![screen-shot](https://github.com/MoemenMostafa/Resources/blob/da24441e33bec365a66e75db4fc3bb5865060fb2/1699196635532%20(1).png)
 
+## Connection Diagram
+![connection diagram](https://github.com/MoemenMostafa/Resources/blob/main/esp8266-tft2inch-dashboard-connection-diagram.png)
+
 ## Table of Contents
 
 - [Introduction](#introduction)
