@@ -176,7 +176,7 @@ public:
 		// draw gear only when it changes
 		if (gear != prev_gear)
 		{
-			tft.loadFont("Formula1_Regular_web_072pt7b", SPIFFS);
+			// tft.loadFont("Formula1_Regular_web_072pt7b", SPIFFS);
 			tft.setTextColor(TFT_YELLOW, TFT_BLACK);
 			tft.setTextSize(8);
 			tft.setTextDatum(MC_DATUM);
